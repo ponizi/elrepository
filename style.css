@@ -1,0 +1,150 @@
+#entete{
+display: flex;
+justify-content: flex-end;
+}
+div.Gmail{
+    padding-top:15px;
+    font-size: 14px;
+    font-family: arial,sans-serif
+}
+div.Images{
+    padding-top:15px;
+    padding-left:12px;
+    font-size: 14px;
+    font-family: arial,sans-serif
+}
+div.App{
+    padding-top:15px;
+    padding-left:14px;
+    padding-right:12px;
+}
+div.Login{
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:20px;
+}
+a {
+    color: #222;
+text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;}
+#Centre{
+display:flex;
+justify-content: center;
+align-items: center;
+margin-top: 145px;
+flex-direction: column;
+}
+#querybox{
+    height:40px;
+    width:570px;
+    border-radius:25px;
+    border: 1px #E1E0E0 solid;
+}
+div.Query{
+    margin-top:20px;
+}
+#Boutons{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+#search{
+    height: 36px;
+    width: 150,75px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color:#5F5F5F;
+    border:1px#F0F0F0;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    padding: 0 16px 0 16px;
+    margin: 11px 4px 11px 4px;
+}
+#luck{
+    height: 36px;
+    width: 150,75px;
+    margin-left: 20px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color:#5F5F5F;
+    border:1px#F0F0F0;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    padding: 0 16px 0 16px;
+    margin: 11px 4px 11px 4px;
+}
+#Footer1{
+    display: grid;
+    background:#F0F0F0;
+    font-family: arial,sans-serif;
+    color: #7C7C7C;
+    position:absolute;
+    bottom:41px;
+    width:101%;
+    padding-top:50px;
+    margin-left:-10px;
+    height:-100px;
+    border:1px #CACACA solid;
+    }
+div.France{
+    position:absolute;
+    top:20px;
+    padding-left: 27px;
+}
+#Footer2{
+    display: grid;
+    font-size:13px;
+    grid-template-columns: 90px 90px 90px 255px 1fr 150px 90px 90px 100px;
+    background:#F0F0F0;
+    font-family: arial,sans-serif;
+    color: #7C7C7C;
+    position:absolute;
+    bottom:0px;
+    width: 101%;
+    margin-left:-10px;
+    Height:41px;
+
+    }
+div.publi{
+    padding-left:27px;
+    padding-top: 10px;
+}
+div.entrep{
+    padding-top: 10px;
+}
+div.aprop{
+    padding-top: 10px;
+}
+div.larech{
+    padding-top: 10px;
+}
+div.info{
+    padding-top: 10px;
+}
+div.confi{
+    padding-top: 10px;
+}
+div.conditi{
+    padding-top: 10px;
+}
+div.param{
+    padding-top: 10px;
+    padding-right: 25px;
+}
+#mic{
+    text-align: right;
+    vertical-align: middle;
+    margin-left: -40px;
+    padding-top: 20px;
+}
+#goog{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+}
